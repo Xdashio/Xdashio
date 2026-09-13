@@ -9,10 +9,10 @@
 ###
 
 <div align="center">
-  <a href="https://github.com/SingasonSimon">
+  <a href="https://github.com/Xdashio">
     <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=181717&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="github logo" />
   </a>
-  <a href="https://youtube.com/@SingasonSimon">
+  <a href="https://youtube.com/@Xdashio">
     <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="youtube logo" />
   </a>
   <a href="https://twitter.com/@x_dash_io">
@@ -21,7 +21,7 @@
   <a href="https://instagram.com/singason.py">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="instagram logo" />
   </a>
-  <a href="https://codepen.io/SingasonSimon">
+  <a href="https://codepen.io/Xdashio">
     <img src="https://img.shields.io/static/v1?message=Codepen&logo=codepen&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="codepen logo" />
   </a>
   <a href="https://t.me/@x_dash_io">
@@ -32,7 +32,7 @@
 ###
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=SingasonSimon&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Xdashio&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile views" />
 </div>
 
 ###
@@ -49,7 +49,7 @@
 ###
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SingasonSimon&theme=onedark&no-frame=false&no-bg=true&margin-w=4&row=2&column=4" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Xdashio&theme=onedark&no-frame=false&no-bg=true&margin-w=4&row=2&column=4" alt="GitHub Trophies" />
 </div>
 
 ###
@@ -235,21 +235,21 @@
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SingasonSimon&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=onedark&locale=en&hide_border=false&order=1" height="220" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Xdashio&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=onedark&locale=en&hide_border=false&order=1" height="220" alt="stats graph" />
   
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=SingasonSimon&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=8&theme=onedark&hide_border=false&order=2" height="220" alt="languages graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Xdashio&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=8&theme=onedark&hide_border=false&order=2" height="220" alt="languages graph" />
 </div>
 
 ###
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=SingasonSimon&locale=en&mode=daily&theme=onedark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph" />
+  <img src="https://streak-stats.demolab.com?user=Xdashio&locale=en&mode=daily&theme=onedark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph" />
 </div>
 
 ###
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SingasonSimon&theme=github-compact&hide_border=false" height="300" alt="activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Xdashio&theme=github-compact&hide_border=false" height="300" alt="activity graph" />
 </div>
 
 ###
@@ -259,7 +259,7 @@
 ###
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SingasonSimon/SingasonSimon/output/snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/Xdashio/Xdashio/output/snake.svg" alt="Snake animation" />
 </div>
 
 ###
@@ -269,22 +269,22 @@
 ###
 
 <div align="center">
-  <a href="https://twitter.com/SingasonSimon" target="_blank">
+  <a href="https://twitter.com/Xdashio" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo" />
   </a>
-  <a href="https://youtube.com/@SingasonSimon" target="_blank">
+  <a href="https://youtube.com/@Xdashio" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/youtube/default.svg" width="52" height="40" alt="youtube logo" />
   </a>
-  <a href="https://instagram.com/SingasonSimon" target="_blank">
+  <a href="https://instagram.com/Xdashio" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo" />
   </a>
   <a href="https://wa.me/254748088741" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/whatsapp/default.svg" width="52" height="40" alt="whatsapp logo" />
   </a>
-  <a href="https://t.me/SingasonSimon" target="_blank">
+  <a href="https://t.me/Xdashio" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/telegram/default.svg" width="52" height="40" alt="telegram logo" />
   </a>
-  <a href="https://codepen.io/SingasonSimon" target="_blank">
+  <a href="https://codepen.io/Xdashio" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/codepen/default.svg" width="52" height="40" alt="codepen logo" />
   </a>
 </div>

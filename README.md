@@ -12,3 +12,10 @@ A fitted top bar island for GNOME Shell 46: clock pill, now playing and media co
 
 **[hyprtile](https://github.com/Xdashio/hyprtile)**  
 Hyprland-style dwindle tiling for GNOME Shell 46: auto-splitting windows, gaps and keyboard-first shortcuts.
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./calendar_dark.svg">
+  <img alt="Contributions over the past year as a 3D calendar" src="./calendar_light.svg" width="100%">
+</picture>

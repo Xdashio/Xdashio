@@ -6,11 +6,10 @@ Requires GITHUB_TOKEN in the environment.
 """
 import datetime as dt
 import json
-import os
-import sys
-import urllib.request
 from pathlib import Path
 from xml.sax.saxutils import escape
+
+from github_api import graphql, token_from_env
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -42,16 +41,7 @@ query($login: String!) {
 
 
 def fetch_stats(login: str, token: str) -> dict:
-    body = json.dumps({"query": QUERY, "variables": {"login": login}}).encode()
-    req = urllib.request.Request(
-        "https://api.github.com/graphql", data=body,
-        headers={"Authorization": f"bearer {token}", "Content-Type": "application/json",
-                 "User-Agent": "profile-card-builder"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        payload = json.load(resp)
-    if payload.get("errors"):
-        raise RuntimeError(f"GitHub API error: {payload['errors']}")
-    user = payload["data"]["user"]
+    user = graphql(QUERY, {"login": login}, token)["user"]
     return {
         "since": user["createdAt"][:4],
         "followers": user["followers"]["totalCount"],
@@ -127,9 +117,7 @@ def render(theme: dict, art: list, panel: list) -> str:
 
 
 def main() -> None:
-    token = os.environ.get("GITHUB_TOKEN")
-    if not token:
-        sys.exit("GITHUB_TOKEN is not set")
+    token = token_from_env()
     profile = json.loads((DATA / "profile.json").read_text())
     stats = fetch_stats(profile["login"], token)
     panel = panel_lines(profile, stats, dt.date.today())

@@ -1,0 +1,39 @@
+{
+  "login": "Xdashio",
+  "prompt": "xdashio@nakuru",
+  "coding_since": 2022,
+  "sections": [
+    {
+      "title": null,
+      "rows": [
+        ["OS", "Linux, macOS, Windows"],
+        ["Uptime", "{uptime}"],
+        ["Host", "Nakuru, Kenya"],
+        ["Kernel", "Full-stack developer"],
+        ["IDE", "VS Code"]
+      ]
+    },
+    {
+      "title": null,
+      "rows": [
+        ["Focus", "Web and mobile, payments, dev tools"],
+        ["Languages", "TypeScript, JavaScript, Dart, Python"],
+        ["Stack.Web", "React, Next.js, Tailwind CSS, Vite"],
+        ["Stack.Mobile", "React Native, Expo, Flutter"],
+        ["Stack.Backend", "Node.js, Express, Supabase"],
+        ["Stack.Data", "PostgreSQL, Drizzle, Prisma, MongoDB"],
+        ["Stack.Testing", "Vitest, Jest, Playwright"],
+        ["Hobbies", "Drawing: art and technical"]
+      ]
+    },
+    {
+      "title": "Contact",
+      "rows": [
+        ["GitHub", "Xdashio"],
+        ["X", "@x_dash_io"],
+        ["Telegram", "@x_dash_io"],
+        ["YouTube", "@Xdashio"]
+      ]
+    }
+  ]
+}

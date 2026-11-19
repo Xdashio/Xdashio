@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./dark_mode.svg">
-  <img alt="Xdashio: full-stack developer. Web and mobile products, payment integrations and developer tools. Based in Nakuru, Kenya." src="./light_mode.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://xdashio-profile.vercel.app/api/card?theme=dark">
+  <img alt="Xdashio: full-stack developer. Web and mobile products, payment integrations and developer tools. Based in Nakuru, Kenya." src="https://xdashio-profile.vercel.app/api/card?theme=light" width="100%">
 </picture>
 
 Full-stack developer. Web and mobile products, payment integrations and developer tools.
@@ -16,6 +16,6 @@ Hyprland-style dwindle tiling for GNOME Shell 46: auto-splitting windows, gaps a
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./calendar_dark.svg">
-  <img alt="Contributions over the past year as a 3D calendar" src="./calendar_light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://xdashio-profile.vercel.app/api/contrib?theme=dark">
+  <img alt="Contributions over the past year as a 3D calendar" src="https://xdashio-profile.vercel.app/api/contrib?theme=light" width="100%">
 </picture>

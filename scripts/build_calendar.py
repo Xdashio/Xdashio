@@ -104,6 +104,12 @@ def render(theme: dict, total: int, days: list) -> str:
     return "\n".join(out) + "\n"
 
 
+def render_theme(name: str, token: str) -> str:
+    """Fetch the live calendar and return the SVG for one theme ("dark" or "light")."""
+    total, days = fetch_days(token)
+    return render(THEMES[name], total, days)
+
+
 def main() -> None:
     total, days = fetch_days(token_from_env())
     for name, theme in THEMES.items():

@@ -116,15 +116,20 @@ def render(theme: dict, art: list, panel: list) -> str:
     return "\n".join(out) + "\n"
 
 
-def main() -> None:
-    token = token_from_env()
+def render_theme(name: str, token: str) -> str:
+    """Fetch live stats and return the card SVG for one theme ("dark" or "light")."""
     profile = json.loads((DATA / "profile.json").read_text())
     stats = fetch_stats(profile["login"], token)
     panel = panel_lines(profile, stats, dt.date.today())
-    for name, theme in THEMES.items():
-        art = (DATA / f"portrait_{name}.txt").read_text().rstrip("\n").split("\n")
-        (ROOT / f"{name}_mode.svg").write_text(render(theme, art, panel))
-    print(f"rendered card: {stats}")
+    art = (DATA / f"portrait_{name}.txt").read_text().rstrip("\n").split("\n")
+    return render(THEMES[name], art, panel)
+
+
+def main() -> None:
+    token = token_from_env()
+    for name in THEMES:
+        (ROOT / f"{name}_mode.svg").write_text(render_theme(name, token))
+    print("rendered card")
 
 
 if __name__ == "__main__":
